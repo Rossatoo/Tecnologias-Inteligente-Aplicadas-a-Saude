@@ -7,4 +7,4 @@
  - reconhimento de padrões -> Redes Neurais -> treinamento -> aprendizado
 
 
-   <img width="775" height="432" alt="image" src="https://github.com/user-attachments/assets/198cdaca-14aa-48a5-953e-36e1cf88598d" />
+   <img width="826" height="451" alt="image" src="https://github.com/user-attachments/assets/d9bdba54-c1b3-4903-a97d-7c58320ce369" />
