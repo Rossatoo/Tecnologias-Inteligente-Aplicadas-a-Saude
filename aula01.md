@@ -6,5 +6,5 @@
  - raciocinio automatizado -> deducao ou inducao -> motores de inferencia
  - reconhimento de padrões -> Redes Neurais -> treinamento -> aprendizado
 
+<img width="1035" height="404" alt="image" src="https://github.com/user-attachments/assets/fe6dcaff-b00d-4e4b-9aab-3a1508eadfed" />
 
-   <img width="826" height="451" alt="image" src="https://github.com/user-attachments/assets/d9bdba54-c1b3-4903-a97d-7c58320ce369" />
