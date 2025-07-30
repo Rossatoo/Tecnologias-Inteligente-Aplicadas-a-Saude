@@ -8,3 +8,5 @@
 
 <img width="1035" height="404" alt="image" src="https://github.com/user-attachments/assets/fe6dcaff-b00d-4e4b-9aab-3a1508eadfed" />
 
+TAREFA PROX AULA:
+Pesquisar no TFG online trabalhos que tenham tecnologias inteligentes aplicadas na saude e categorizar em Recomendação, predicao e previsao, diagnostico ou monitoramente e sonsoriamento.
