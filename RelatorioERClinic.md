@@ -6,9 +6,9 @@ O sistema utiliza a API do **ChatGPT (LLM – Large Language Model)** em conjunt
 
 ---
 
-## 2. O “Porteiro” (Classificador de Intenções)
+## 2. O “Porteiro” 
 O **porteiro** é um componente responsável por identificar o que o cliente deseja, interpretando a frase digitada ou falada.  
-- Atua como um **roteador de intenções (intent router)**.  
+- Atua como um **roteador de intenções**  
 - Baseia-se em **palavras-chave, contexto e prompts** para determinar a ação correta.  
 - Exemplo:  
   - “Quero marcar uma consulta” → Encaminha para módulo **Agenda**.  
@@ -24,22 +24,22 @@ O ER Clinic utiliza a **API do ChatGPT** para interpretar e gerar respostas em l
 - Cada chamada à API gera custos em **tokens**:  
   - **Prompt tokens** → texto enviado para a IA.  
   - **Completion tokens** → resposta retornada pela IA.  
-- Para otimizar custos, são aplicadas técnicas de **engenharia de prompts** (Prompt Engineering), que consistem em elaborar instruções claras e concisas para guiar o modelo.  
+- Para otimizar custos, são aplicadas técnicas de **engenharia de prompts**, que consistem em elaborar instruções claras e concisas para guiar o modelo.  
 
 ---
 
-## 4. Treinamento por Prompts (Prompt Engineering)
-O sistema não é treinado como em Machine Learning tradicional. Em vez disso, utiliza **prompts especializados** que direcionam o comportamento da IA.  
+## 4. Treinamento por Prompts
+O sistema não é treinado como em Machine Learning tradicional. Em vez disso, utiliza prompts especializados que direcionam o comportamento da IA.  
 - Exemplo de prompt:  
   > “Você é um assistente de clínica. Se o cliente falar de horários, encaminhe para Agenda. Se falar de pagamentos, encaminhe para Financeiro.”  
 
-Dessa forma, o modelo consegue **simular diferentes especializações** sem precisar ser reprogramado.
+Dessa forma, o modelo consegue simular diferentes especializações sem precisar ser reprogramado.
 
 ---
 
 ## 5. LLMs e LangChain
 - **LLM (Large Language Model):** é o núcleo de IA usado (no caso, ChatGPT), que entende e gera linguagem natural.  
-- **LangChain:** é um framework que facilita a criação de **agentes especializados (VMs)** e a construção de **fluxos conversacionais complexos**.  
+- **LangChain:** é um framework que facilita a criação de **agentes especializados (VMs)** e a construção de fluxos conversacionais complexos.  
   - Permite encadear prompts.  
   - Oferece integração com APIs externas (ex.: banco de dados do ER Clinic).  
   - Dá suporte à criação de **multiagentes** com papéis distintos.
